@@ -1,0 +1,41 @@
+.inputdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form {
+    display: block;
+    text-align: center;
+    width: 500px;
+    box-shadow: 5px 5px 5px 5px hsla(0, 0%, 0%, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 25px 0;
+    justify-content: end;
+}
+
+.input {
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input:focus,
+.input:hover {
+    outline: none;
+}
+
+.submit {
+    font-size: 15px;
+    background: wheat;
+    border: none;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.projectDetails {
+    padding: 10px 25px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 1px;
+    border-bottom: 2px solid grey;
+    padding-bottom: 5px;
+    text-align: center;
+}

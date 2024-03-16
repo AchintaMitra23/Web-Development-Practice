@@ -1,0 +1,60 @@
+.image {
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+    text-align: center;
+    margin: 25px 0;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.5);
+}
+
+.name {
+    text-align: center;
+    margin: 25px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.email,
+.phone,
+.salary {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.designationTitle {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    border-bottom: 2px solid grey;
+    padding-bottom: 5px;
+}
+
+.designationText {
+    font-size: 22.5px;
+    font-weight: 500;
+    font-style: italic;
+    color: greenyellow;
+    text-align: center;
+}
+
+.detailsDesc {
+    margin: 10px;
+    width: 300px;
+}
+
+.outerContainer {
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.innerContainer {
+    text-align: center;
+}

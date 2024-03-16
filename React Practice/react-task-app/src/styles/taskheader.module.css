@@ -1,0 +1,62 @@
+.container {
+    display: inline-flex;
+    width: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    left: 50%;
+    top: 10%;
+    transform: translate(50%, 10%);
+    border-radius: 20px;
+}
+
+.logo {
+    width: 50%;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.logo span {
+    font-size: 30px;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.buttons {
+    width: 50%;
+    float: right;
+}
+
+.btns {
+    padding: 10px 15px;
+    margin: 15px;
+    position: relative;
+    border-radius: 50%;
+    font-size: 15px;
+    cursor: pointer;
+    float: right;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.logout {
+    background-color: blueviolet;
+}
+
+.folder {
+    background-color: goldenrod;
+}
+
+.user {
+    background-color: green;
+}
+
+.delete {
+    background-color: red;
+}

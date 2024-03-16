@@ -1,0 +1,52 @@
+.emptyhead {
+    color: grey;
+    font-size: 15px;
+    font-family: 'Arial, Helvetica, sans-serif';
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.element {
+    width: 500px;
+    box-shadow: 0 0 5px 5px hsla(0, 0%, 0%, 0.5) inset;
+    outline: none;
+    padding: 25px 10px;
+    border-radius: 10px;
+}
+
+.elementlist {
+    display: block;
+}
+
+.elementItem {
+    text-align: justify;
+    padding: 10px 15px;
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.crossbtn {
+    float: right;
+    font-size: 12px;
+    background: wheat;
+    border: none;
+    padding: 6.5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.normal {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}

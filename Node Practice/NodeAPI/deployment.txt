@@ -1,0 +1,17 @@
+While pushing node_modules and .env should be placed under .gitignore file
+Create dummy .env file where keys are present but value for mongo DB should not be given.
+
+########## Deploy on reder.com 
+
+STEP 1 : Push the code to GitHub as we need version control repository.
+STEP 2 : Open dashboard.render.com -> New -> Web Service -> Connect GitHub
+STEP 3 : Select only selected repository -> Install
+STEP 4 : Click on Connect
+STEP 5 : 
+a. Give Http near_meb.
+b. build command 'npm install'.
+c. start command 'node server.js'.
+d. Select Free Plan.
+e. Create Web-Service
+
+STEP 6 : Environments -> Add Environment Variable (copy every env props fro .env to key value pairs) -> Done Changes
